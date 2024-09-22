@@ -1,0 +1,12 @@
+.container {
+  margin-top: 200px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.SwiperContainer {
+  width: 90%;
+}

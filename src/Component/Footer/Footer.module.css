@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1b3c74;
+  color: white;
+  padding: 80px 150px;
+}
+.aboveSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping */
+  margin-bottom: 50px;
+  height: auto; /* Change from fixed height */
+}
+.leftSection {
+  /* background-color: antiquewhite; */
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo {
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+.rightSection {
+  width: 60%;
+  /* background-color: aquamarine; */
+}
+
+.rightSection ul {
+  /* Optional, remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  column-count: 2; /* Set the number of columns */
+  column-gap: 20px; /* Adjust spacing between columns */
+  max-height: 150px;
+}
+
+.copyrightSection {
+  border-top: 1px solid lightblue;
+  padding-top: 20px;
+}

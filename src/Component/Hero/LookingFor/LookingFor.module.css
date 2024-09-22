@@ -1,0 +1,79 @@
+.contanier {
+  width: 80%;
+  background-color: white;
+  height: 420px;
+  position: absolute;
+  z-index: 1;
+  top: 530px;
+  left: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search {
+  /* background-color: aqua; */
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.search > input {
+  padding: 10px;
+  border-radius: 10px;
+  width: 280px;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.search > button {
+  padding: 10px;
+  background-color: #2aa7ff;
+  width: 130px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.loookingForOptions {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: bisque; */
+  height: 80%;
+  gap: 50px;
+}
+.grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.gridItem {
+  width: 210px;
+  height: 150px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.iconBox {
+  width: 70px;
+  height: 870px;
+  /* background-color: blueviolet; */
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  color: #2aa7ff;
+}
+
+.gridItem > p {
+  font-weight: 400;
+  opacity: 0.7;
+}

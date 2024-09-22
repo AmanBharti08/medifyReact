@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Bookings from "./Pages/Bookings";
+import Default from "./Pages/Default";
+import FindHospitals from "./Pages/FindHospitals";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+export const config = {
+  // endpoint: `http://${ipConfig.workspaceIp}:8082/api/v1`,
+  // endpoint: `https://qkartfrontend-ask6.onrender.com/api/v1`,
+  endpoint: `https://meddata-backend.onrender.com`,
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Default />} />
+        <Route path="/findhospitals" element={<FindHospitals />} />
+        <Route path="/myBookings" element={<Bookings />} />
+      </Routes>
+    </Router>
   );
 }
 

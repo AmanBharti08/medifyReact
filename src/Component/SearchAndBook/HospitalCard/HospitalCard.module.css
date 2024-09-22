@@ -1,0 +1,101 @@
+.cardContainer {
+  background-color: #ffffff;
+  width: 800px;
+  padding: 40px 20px 20px 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.schedule {
+  border-top: 1px solid black;
+  padding-top: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  /* height: 300px; */
+  display: flex;
+  gap: 20px;
+}
+
+.details {
+  display: flex;
+  gap: 20px;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 350;
+  /* padding: 5px; */
+}
+.information > h2 {
+  color: #14bef0;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 45px;
+  padding: 2px;
+  color: white;
+  background-color: #02a401;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.rightColumn > p {
+  color: #01a400;
+  font-weight: 500;
+}
+
+.rightColumn > button {
+  width: 212px;
+  padding: 7px;
+  border: 1px solid #14bef0;
+  background-color: #2aa7ff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.scheduleTimeContainer {
+  display: flex;
+  flex-direction: column;
+}
+.scheduleTimeContainer > div {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.timeOfDay {
+  border-top: 1px solid lightgray;
+}
+.timeslots {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.timeslots > button {
+  width: 100px;
+  padding: 5px;
+  /* margin-right: px; */
+  border: 1px solid #2aa7ff;
+  background-color: white;
+  border-radius: 5px;
+  color: #2aa7ff;
+  cursor: pointer;
+}
